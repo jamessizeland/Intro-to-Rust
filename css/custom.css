@@ -1,0 +1,12 @@
+/* Custom Reveal.js styles */
+
+.reveal {
+  font-size: 34px; /* Adjust this value as needed */
+}
+
+/* Make code blocks wrap */
+.reveal pre code {
+  white-space: pre-wrap !important;   /* Allow wrapping, preserve whitespace */
+  word-wrap: break-word !important;   /* Break long words if necessary */
+  /* You might also consider word-break: break-all; if break-word isn't enough */
+}
